@@ -1,3 +1,7 @@
-<h1> CSD-340 Web Development with HTML and CSS</h1>
-<h2> Contributors</h2>
+<h1>CSD-340 Web Development with HTML and CSS</h1>
+<h2>Contributors</h2>
+<ul>
+  <li>Professor Sue Sampson</li>
+  <li>Andrew Schaefer</li>
+</ul>
 This repository contains course work from Bellevue University's Web Development with HTML and CSS class.
