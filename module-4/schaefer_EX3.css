@@ -1,0 +1,59 @@
+
+/*Andrew Schaefer
+8/25/21
+CSD340
+Module 4.3 Assignment*/
+
+#page-title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#favorite_books {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#things_learned {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#things_learned_bullets {
+    list-style-type: upper-roman;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#landing_url {
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#landing_url:hover {
+    text-decoration: underline;
+}
