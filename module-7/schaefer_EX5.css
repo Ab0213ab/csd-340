@@ -1,8 +1,8 @@
 
-/*Andrew Schaefer
+/* Andrew Schaefer
 9/14/21
 CSD340
-Module 7.2 Assignment*/
+Module 7.2 Assignment (b) */
 
 body {
     margin: 0;
@@ -23,8 +23,7 @@ h1 {
 #navbar {
     overflow: hidden;
     background-color: #5CDB95;
-    color: #EDF5E1;
-    border-bottom: 15px solid;
+    border-bottom: 15px solid #EDF5E1;
 }
 
 #navbar a {
