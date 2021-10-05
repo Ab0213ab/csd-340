@@ -1,0 +1,106 @@
+
+/* Andrew Schaefer
+10/4/21
+CSD340
+Module 12.3 Final Exam */
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 60%;
+    min-height: 60%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #edeae5;
+    grid-gap: 20px;
+    
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #fef9c7;
+    color: #026670;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #fef9c7;
+    border-bottom: 15px solid #026670;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #026670;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #9fedd7;
+    color: black;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hobbies, .experience {
+    min-height: 250px;
+}
+
+.contact-container {
+    
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.extended-card {
+    width: 100%;
+}
+
+.card {
+    box-shadow: 6px 6px 10px 10px #9fedd7;
+    transition: 0.3s;
+    width: 95%;
+    background-color: #fce181;
+    padding: 5px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #026670;
+    font-weight: 400;
+}
+
+h1 {
+    color: #026670;
+    background-color: #fef9c7;
+}
+
+.form-field {
+    padding: 5px;
+}
+
