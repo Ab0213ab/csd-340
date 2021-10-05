@@ -44,6 +44,7 @@ header {
     overflow: hidden;
     background-color: #fef9c7;
     border-bottom: 15px solid #026670;
+    font-size: larger;
 }
 
 #navbar a {
@@ -102,5 +103,37 @@ h1 {
 
 .form-field {
     padding: 5px;
+    background-color: #9fedd7;
+    box-shadow: 6px 6px 10px 10px #fef9c7;
 }
 
+.btn {
+    border: 1px solid #026670;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: grab;
+    padding: 15px 32px;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #edeae5;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #fce181;
+    color:#026670;
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #026670;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
